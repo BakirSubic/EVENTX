@@ -1,0 +1,59 @@
+body {
+    background: #000000;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    overflow-wrap: break-word;
+    width: 100%;
+    height: 50vh;
+    top:2%;
+}
+
+.imageDetails {
+    height: 100%;
+    width: 50%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: flex-start;
+    overflow-wrap: break-word;
+    height: 100%;
+    width: 30%;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.bookButton {
+    width: 90px;
+    height: 40px;
+    background: #00ADB5;
+    border: transparent;
+    border-radius: 8px;
+    margin-right: 0;
+    cursor: pointer;
+    color: #000000;
+    transition: background 200ms, width 200ms, margin-right 200ms;
+}
+
+.bookButton:hover {
+    width: 140px;
+    background: #EEEEEE;
+    margin-right: 5px;
+}
+
+.overall {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}

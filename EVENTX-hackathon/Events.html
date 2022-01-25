@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>
+    <link rel="stylesheet" href="styles/navigationBar.css"/>
+    <link rel="stylesheet" href="styles/Events.css"/>
+    <title>Events</title>
+    <script type="text/javascript" src="Home.js"></script>
+</head>
+  <body>
+  <div class="navbar">
+      <img src="assets/eventXlogo.png" alt="LOGO" class="logo"/>
+      <div class="navigation">
+          <a href="Home.html"><div class="home item">Home</div></a>
+          <a href="History.html"><div class="events item">History</div></a>
+          <a href="Events.html"><div class="explore item">Explore events</div></a>
+      </div>
+  </div>
+    <div class="content">
+    <div class="showButtons">
+        <button onclick="hideEvent()" class="buttonHide">Show events near me</button>
+        <button onclick="showEvent()" class="buttonShow">Show all</button>
+    </div>
+        <h1 id="location">Showing all events</h1>
+        <div class="eventCollection">
+            <div class="event">
+            <img src="assets/1.jpeg" class="eventImages"/>
+                <div class="eventInfo" id="club-remove">
+                    <h2 class="Type">Nightclub</h2>
+                    <h2 class="Name">Vault68</h2>
+                    <h3 class="Rating">Spot Rating: <mark class="mark">9.2</mark></h3>
+                    <p class="Text">Special Guest : Mahmut Orhan</p>
+                        <div class="buttonsCard">
+                            <button class="bookButton" onclick="book()">Book</button>
+                            <a href="vault68Details.html" style="text-decoration: none">
+                                <button class="detailsButton">Details</button></a>
+                        </div>
+                </div>
+            </div>
+        <div class="event">
+            <img src="assets/2.jpeg" class="eventImages" id="shop-remove"/>
+            <div class="eventInfo">
+                <h2 class="Type">Coffee Bar</h2>
+                <h1 class="Name">Pub Sarajevo</h1>
+                <h3 class="Rating">Spot Rating: <mark class="mark">9.8</mark></h3>
+                <p class="Text">Live Music</p>
+                     <div class="buttonsCard">
+                        <button class="bookButton" onclick="book()">Book</button>
+                         <a href="pubSarajevo.html"><button class="detailsButton">Details</button></a>
+                    </div>
+            </div>
+        </div>
+        <div class="event" id="remove">
+            <img src="assets/ibis.jpeg" class="eventImages"/>
+            <div class="eventInfo">
+                <h2 class="Type">Coffee Shop</h2>
+                <h1 class="Name">Ibis Style</h1>
+                <h3 class="Rating">Spot Rating: <mark class="mark">9.4</mark></h3>
+                <p class="Text">2 year celebration</p>
+                    <div class="buttonsCard">
+                        <button class="bookButton" onclick="book()">Book</button>
+                        <a href="ibis.html"><button class="detailsButton">Details</button></a>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>

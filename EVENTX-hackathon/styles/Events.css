@@ -1,0 +1,173 @@
+body {
+    background: #000000;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.eventCollection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width:100%;
+}
+
+.event {
+    width: 301px;
+    height: 90%;
+    border: 2px solid #383838;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+}
+
+.eventImages {
+    height: auto;
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0;
+}
+
+.eventInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mark {
+    background: transparent;
+    color: #00ADB5;
+}
+
+.buttonsCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 90%;
+}
+
+.bookButton {
+    width: 80px;
+    height: 30px;
+    background: #00ADB5;
+    border: transparent;
+    border-radius: 8px;
+    margin-right: 0;
+    cursor: pointer;
+    color: #000000;
+    transition: background 200ms, width 200ms, margin-right 200ms;
+}
+
+.bookButton:hover {
+    width: 120px;
+    background: #EEEEEE;
+    margin-right: 5px;
+}
+
+.detailsButton {
+    width: 80px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #929292;
+    border-radius: 8px;
+    margin-left: 0;
+    cursor: pointer;
+    color: #929292;
+    transition: border-color 200ms, color 200ms;
+}
+
+.detailsButton:hover{
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.Type {
+    font-size: 16px;
+    color: #929292;
+}
+
+.Name {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.Rating {
+    font-size: 14px;
+    color: #EEEEEE;
+}
+
+.Text {
+    font-size: 12px;
+    text-align: center;
+    color: #929292;
+}
+
+.removeEvent {
+    display: none;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.showButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    width: 25%;
+}
+
+.buttonHide {
+    border-radius: 8px;
+    background: #00ADB5;
+    border: none;
+    height: 30px;
+    width: 55%;
+    margin-right: 0;
+    transition: width 200ms, background 200ms, margin-right 200ms;
+    cursor: pointer;
+}
+
+.buttonHide:hover {
+    background: #EEEEEE;
+    width: 70%;
+    margin-right: 5px;
+}
+
+.buttonShow {
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #929292;
+    color: #929292;
+    height: 30px;
+    width: 35%;
+    margin-left: 0;
+    cursor: pointer;
+    transition :border-color 200ms, color 200ms;
+}
+
+.buttonShow:hover {
+    border: 2px solid #EEEEEE;
+    color: #EEEEEE;
+}
+
+#location {
+    color: #EEEEEE;
+}
+

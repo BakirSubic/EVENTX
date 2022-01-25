@@ -1,0 +1,72 @@
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    transition: opacity 500ms linear;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.explore {
+    padding: 10px 15px;
+    background: #00ADB5;
+    border-radius: 8px;
+    color: #000000;
+    transition: background 500ms, padding-left 100ms, padding-right 100ms;
+}
+
+.explore:hover {
+    background: #EEEEEE;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home {
+    color: #EEEEEE;
+    transition: color 200ms, font-size 200ms;
+}
+
+.home:hover {
+    color: #00ADB5;
+    font-size: 20px;
+}
+
+.events {
+    color: #EEEEEE;
+    transition: color 200ms, font-size 200ms;
+}
+
+.events:hover {
+    color: #00ADB5;
+    font-size: 20px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.item {
+    font-size: 18px;
+}
